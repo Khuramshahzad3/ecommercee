@@ -5,7 +5,6 @@ import Breadcrums from '../Components/Breadcrums/Breadcrums';
 import ProductDisplay from '../Components/ProductDisplay/ProductDisplay';
 import DescriptionBox from '../Components/DescriptionBox/DescriptionBox';
 import Relatedproduct from '../Components/Relatedproducts/Relatedproduct';
-
 function Product() {
   const { allproduct } = useContext(ShopContexts);
   const { productId } = useParams();
